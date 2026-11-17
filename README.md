@@ -64,7 +64,7 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Conduyt provides an AI-native Customer Relationship Management (CRM) platform founded in Seattle in 2023. It offers flat-rate pricing at $299 per month with unlimited users, contacts, pipelines, and AI-driven automation. The system automatically captures calls, texts, emails and forms, moves deals through stages via drip campaigns, and includes a built-in dialer. Its Model Context Protocol (MCP) server exposes over 600 REST endpoints for AI agents, enabling real-time data read/write. The platform emphasizes forecasting, duplicate detection, and unlimited scalability.
+Conduyt is an AI‑native Customer Relationship Management (CRM) platform that delivers flat‑rate pricing at $299 per month with unlimited users, contacts, pipelines, and AI‑driven automation. The service automatically captures calls, texts, emails and web forms, moves deals through stages via drip campaigns, and includes a built‑in dialer. It provides forecasting, duplicate detection and unlimited scalability, and its Model Context Protocol (MCP) server exposes over 600 REST endpoints for AI agents to read and write data in real time. Founded in Seattle in 2023, Conduyt aims to simplify sales workflows with AI‑enhanced features while offering a transparent, flat‑fee pricing model.
 
 **Areas:** Company · CRM · AI · SaaS · Sales
 
@@ -72,7 +72,7 @@ Conduyt provides an AI-native Customer Relationship Management (CRM) platform fo
 
 Everything profiled for Conduyt is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/conduyt-com/](https://apis.io/providers/conduyt-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (103)
+### APIs (105)
 
 - [Conduyt Account API](https://apis.io/apis/conduyt-com/conduyt-com-account-api/) — The Account API from Conduyt — 2 operation(s) for account.
 - [Conduyt Account Exports API](https://apis.io/apis/conduyt-com/conduyt-com-account-exports-api/) — The Account Exports API from Conduyt — 2 operation(s) for account exports.
@@ -177,6 +177,8 @@ Everything profiled for Conduyt is published on APIs.io rather than in this repo
 - [Conduyt Webhook Logs API](https://apis.io/apis/conduyt-com/conduyt-com-webhook-logs-api/) — The Webhook Logs API from Conduyt — 1 operation(s) for webhook logs.
 - [Conduyt Webhooks API](https://apis.io/apis/conduyt-com/conduyt-com-webhooks-api/) — Outbound webhook management and logs
 - [Conduyt Workflows API](https://apis.io/apis/conduyt-com/conduyt-com-workflows-api/) — Simple trigger-action workflows
+- [Conduyt Activity API](https://apis.io/apis/conduyt-com/conduyt-com-activity-api/) — The Activity API from Conduyt — 1 operation(s) for activity.
+- [Conduyt Tax Rates API](https://apis.io/apis/conduyt-com/conduyt-com-tax-rates-api/) — The Tax Rates API from Conduyt — 2 operation(s) for tax rates.
 
 ### Published properties
 
@@ -186,24 +188,50 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Conduyt Com Agentic Access](https://apis.io/agentic-access/conduyt-com/conduyt-com-agentic-access/)
+- [Conduyt Agentic Access](https://apis.io/agentic-access/conduyt-com/conduyt-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (29)
 
 The data models the API reads and writes.
 
+- [BookingDocumentMintEnvelope](https://apis.io/schemas/conduyt-com/conduyt-com-booking-document-mint-envelope/)
+- [BookingDocumentsBindEnvelope](https://apis.io/schemas/conduyt-com/conduyt-com-booking-documents-bind-envelope/)
 - [BookingPagePatch](https://apis.io/schemas/conduyt-com/conduyt-com-booking-page-patch/)
+- [CompanyDetails](https://apis.io/schemas/conduyt-com/conduyt-com-company-details/)
+- [CompanyDetailsPatch](https://apis.io/schemas/conduyt-com/conduyt-com-company-details-patch/)
 - [ContactRead](https://apis.io/schemas/conduyt-com/conduyt-com-contact-read/)
 - [ContactUpdate](https://apis.io/schemas/conduyt-com/conduyt-com-contact-update/)
+- [DataEnvelope](https://apis.io/schemas/conduyt-com/conduyt-com-data-envelope/)
 - [DealCreate](https://apis.io/schemas/conduyt-com/conduyt-com-deal-create/)
 - [DealUpdate](https://apis.io/schemas/conduyt-com/conduyt-com-deal-update/)
+- [DialerCallRecording](https://apis.io/schemas/conduyt-com/conduyt-com-dialer-call-recording/)
+- [DialerCallsPage](https://apis.io/schemas/conduyt-com/conduyt-com-dialer-calls-page/)
+- [DialerHistoryPage](https://apis.io/schemas/conduyt-com/conduyt-com-dialer-history-page/)
+- [DripCampaignCreate](https://apis.io/schemas/conduyt-com/conduyt-com-drip-campaign-create/)
+- [EmailSignatureInput](https://apis.io/schemas/conduyt-com/conduyt-com-email-signature-input/)
+- [EmailSignatureResponse](https://apis.io/schemas/conduyt-com/conduyt-com-email-signature-response/)
+- [EmailTemplateCreate](https://apis.io/schemas/conduyt-com/conduyt-com-email-template-create/)
+- [EmailTemplateUpdate](https://apis.io/schemas/conduyt-com/conduyt-com-email-template-update/)
+- [FormIntake](https://apis.io/schemas/conduyt-com/conduyt-com-form-intake/)
+- [InvoiceCreate](https://apis.io/schemas/conduyt-com/conduyt-com-invoice-create/)
+- [Message](https://apis.io/schemas/conduyt-com/conduyt-com-message/)
 - [MessageCreate](https://apis.io/schemas/conduyt-com/conduyt-com-message-create/)
+- [NoteCreate](https://apis.io/schemas/conduyt-com/conduyt-com-note-create/)
+- [PaginationMeta](https://apis.io/schemas/conduyt-com/conduyt-com-pagination-meta/)
+- [ProductCreate](https://apis.io/schemas/conduyt-com/conduyt-com-product-create/)
+- …and 4 more published on APIs.io
 
 #### JSON-LD (1)
 
 Linked-data contexts for the provider's vocabulary.
 
 - [Conduyt Com Context](https://apis.io/jsonld/conduyt-com/conduyt-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Conduyt Auth Api Certification Overlay](https://apis.io/overlays/conduyt-com/conduyt-com-auth-api-certification-overlay/)
 
 #### Governance rules (1)
 
@@ -215,28 +243,28 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Conduyt Com Authentication](https://apis.io/security/conduyt-com/conduyt-com-authentication/)
-- [Conduyt Com Domain Security](https://apis.io/security/conduyt-com/conduyt-com-domain-security/)
-- [Conduyt Com Trust Center](https://apis.io/security/conduyt-com/conduyt-com-trust-center/)
-- [Conduyt Com Vulnerability Disclosure](https://apis.io/security/conduyt-com/conduyt-com-vulnerability-disclosure/)
+- [Conduyt Authentication](https://apis.io/security/conduyt-com/conduyt-com-authentication/)
+- [Conduyt Domain Security](https://apis.io/security/conduyt-com/conduyt-com-domain-security/)
+- [Conduyt Trust Center](https://apis.io/security/conduyt-com/conduyt-com-trust-center/)
+- [Conduyt Vulnerability Disclosure](https://apis.io/security/conduyt-com/conduyt-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Conduyt Com Scopes](https://apis.io/scopes/conduyt-com/conduyt-com-scopes/)
+- [Conduyt Scopes](https://apis.io/scopes/conduyt-com/conduyt-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Conduyt Com Plans Pricing](https://apis.io/plans/conduyt-com/conduyt-com-plans-pricing/)
+- [Conduyt Plans Pricing](https://apis.io/plans/conduyt-com/conduyt-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Conduyt Com Rate Limits](https://apis.io/rate-limits/conduyt-com/conduyt-com-rate-limits/)
+- [Conduyt Rate Limits](https://apis.io/rate-limits/conduyt-com/conduyt-com-rate-limits/)
 
 ## Where to find this API
 
@@ -256,25 +284,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.7** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 68.6** — exemplar · rubric 0.28.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 56.3 |
-| Contract governance | 79.1 |
-| Operational transparency | 47.4 |
+| Discoverability | 73.2 |
+| Contract quality | 61.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 47.6 |
 | Developer ergonomics | 39.8 |
-| Access clarity | 75.8 |
+| Access clarity | 83.0 |
 
-**Agent readiness 51.9** — agent-native
+**Agent readiness 46.2** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
-| Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
@@ -292,6 +320,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
 **Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
 
