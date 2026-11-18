@@ -284,23 +284,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 68.6** — exemplar · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 73.8** — exemplar · rubric 0.27.0 · scored 2026-11-18
 
 | Facet | Score |
 |---|---|
-| Discoverability | 73.2 |
-| Contract quality | 61.6 |
-| Contract governance | 22.0 |
-| Operational transparency | 47.6 |
+| Discoverability | 78.6 |
+| Contract quality | 58.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.4 |
 | Developer ergonomics | 39.8 |
-| Access clarity | 83.0 |
+| Access clarity | 75.8 |
 
-**Agent readiness 46.2** — agent-native
+**Agent readiness 50.6** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | derived (partial credit) |
+| Agentic Access | unknown |
 | Reversibility Documented | documented (partial credit) |
 | MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
